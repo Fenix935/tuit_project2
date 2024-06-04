@@ -1,0 +1,126 @@
+.trade_id_container {
+    margin-top: 10px;
+}
+
+.trade_id_container .trade_id_loading {
+    width: 100%;
+    height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trade_id_container .trade_id_loading  .load_icon {
+    color: #2753b9;
+}
+
+.trade_id_container .trade_id_loading  .load_icon svg {
+    width: 200px;
+    height: 200px;
+}
+
+.trade_id_container .page_title {
+    font-size: 1.7rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.trade_id_container .page_title .id {
+    color: #1e4d9f;
+    padding: 1px 10px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(157,165,185,.3);
+    margin-right: 10px;
+}
+
+.passport_container {
+    box-shadow: 0 2px 8px rgba(157,165,185,.3);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.passport_container .passport_wrapper {
+    width: 100%;
+    border-bottom: 1px solid rgba(34,34,34,.05);
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.passport_container .passport_wrapper p {
+    margin: 0;
+}
+
+.download_block .download_text {
+    font-size: 18px;
+}
+
+.download_block .link_block {
+    background: #3369c7;
+    border-radius: 4px;
+    width: 42px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 1px solid #3369c7;
+    font-size: .86rem;
+    line-height: 150%;
+    letter-spacing: .002em;
+    transition: all .3s ease-in-out;
+}
+
+.passport_container .passport_wrapper .passport_name {
+    font-size: 18px;
+    color: #22427a;
+    margin-bottom: 15px;
+    line-height: 150%;
+    letter-spacing: .004em;
+}
+
+.passport_container .passport_wrapper .passport_value {
+    font-size: 16px;
+    color: #222;
+    line-height: 150%;
+    letter-spacing: .004em;
+}
+
+.passport_container .passport_wrapper .passport_value span {
+    color: #408ec6;
+    margin-left: 8px;
+}
+
+.passport_container .passport_wrapper .passport_value span:hover {
+    text-decoration: underline;
+}
+
+.tabs_container .ant-tabs-nav::before {
+    display: none;
+}
+
+.tabs_container .ant-tabs-nav .ant-tabs-nav-wrap {
+    overflow: unset;
+}
+
+.tabs_container .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab {
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #333;
+    margin-right: 15px;
+    border-radius: 10px ;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(157,165,185,.3);
+}
+
+.tabs_container .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab.ant-tabs-tab-active {
+    background: #2753b9;
+}
+
+.tabs_container .ant-tabs-nav .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fff !important;
+}

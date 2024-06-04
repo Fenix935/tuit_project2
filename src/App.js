@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import {TradeList} from './page/tradeList'
+import {TradeId} from './page/tradeId'
+import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import {Flex, Typography} from "antd";
+
+const router = createBrowserRouter([
+	{
+		path: "/",
+		element: <TradeList />,
+	},
+	{
+		path: "/trade/:name",
+		element: <TradeId />,
+	},
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Flex justify='space-between' align='center' gap={10}>
+				<Typography.Title level={2} style={{textAlign: 'center', fontWeight: '500'}}>Центр государственных услуг
+					в сфере "Торговля"</Typography.Title>
+				{/*<Button size='large' type="primary" icon={<UserOutlined />}>*/}
+				{/*	Войти*/}
+				{/*</Button>*/}
+			</Flex>
+
+			<RouterProvider router={router} />
+		</div>
+	);
 }
 
 export default App;

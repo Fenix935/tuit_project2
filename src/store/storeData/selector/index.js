@@ -1,0 +1,1 @@
+export const getTradeById = (state) => state.trade.tradeObj;

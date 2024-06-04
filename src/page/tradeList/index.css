@@ -1,0 +1,64 @@
+.App .data_list_title {
+    font-size: 21px;
+}
+
+.App .skeleton_wrapper {
+    margin-bottom: 20px;
+}
+
+.App .skeleton_wrapper .ant-skeleton-title {
+    width: 100% !important;
+}
+
+.App .skeleton_wrapper .ant-skeleton-paragraph {
+    width: 70%;
+}
+
+.space_wrapper {
+    display: flex;
+}
+
+.space_wrapper .card_item {
+
+}
+
+.space_wrapper .card_item .card_item_content {
+    /*max-width: 500px;*/
+    gap: 8px;
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.space_wrapper .card_item .card_item_content p {
+    margin: 0;
+}
+
+.space_wrapper .card_item .card_item_content .card_content_name {
+    font-weight: 500;
+    width: 245px;
+}
+
+.space_wrapper .card_item .card_item_content .card_content_value {
+    max-width: calc(100% - 255px);
+}
+
+.space_wrapper .card_item .card_item_content .card_content_value .rate_icon_container {
+    color: #408ec6;
+}
+
+.space_wrapper .card_item .ant-card-head {
+    background: #1677ff;
+}
+
+.space_wrapper .card_item .ant-card-head .ant-card-head-title {
+    color: #fff;
+    font-weight: 500;
+}
+
+.space_wrapper .card_item .title_text {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
